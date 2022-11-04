@@ -33,7 +33,6 @@
                 <th>Name</th>
                 <th>Username</th>
                 <th>Email</th>
-                <th>Address</th>
             </tr>
         </thead>
         <tbody id="users">
@@ -59,35 +58,35 @@
         var tbody = document.getElementById('users');
         var selectedPage = 1;
         var hasLoadedPagination = false;
-
+        var total = null;
+        
+        
         getData();
-
         function getData() {
             fetch('https://reqres.in/api/users?page=' + selectedPage)
                 .then(res => res.json())
                 .then(data => {
                     showData(data);
+                    //console.log(data)
                     if (!hasLoadedPagination) {
                         showPagination();
                         hasLoadedPagination = true;
                     }
-                    if(selectedPage == 0 || selectedPage >= 3){
-                        //
-                    } 
                 })
         }
 
-        function showData(json) {
-            console.log(json);
-            response = json;
-
+        function showData(js) {
+           // console.log(js);
+            response = js;
+            total = js.total_pages;
+            //console.log(total)
             // for (let i = 0; i < json.data.length; i++) {
             //     const user = json.data[i];
             //     console.log(user.email);
             // }
             tbody.innerHTML = "";
-            json.data.forEach(user => {
-                console.log(user.email);
+            js.data.forEach(user => {
+                //console.log(user.email);
                 var row = `
             <tr>
                 <td>${user.id}</td>
@@ -103,9 +102,11 @@
         function showPagination() {
             var pages = document.getElementById('pages');
             
+            //console.log(pages)
+            
             pages.innerHTML += `
-        <li class="page-item" id = "prev">
-            <a class="page-link" href="#" onclick="return navPrevNext('p')">Previous</a>
+        <li class="page-item" >
+            <a class="page-link" href="#" onclick="return navPrevNext('p')" id="prev">Previous</a>
         </li>
         `;
 
@@ -118,14 +119,17 @@
             }
 
             pages.innerHTML += `
-        <li class="page-item" id = "next">
-            <a class="page-link" href="#" onclick="return navPrevNext('n')">Next</a>
+        <li class="page-item">
+            <a class="page-link" href="#" onclick="return navPrevNext('n')" id="next">Next</a>
         </li>
         `;
-
+        //var prevs = document.getElementById('prev');
+        //console.log(prevs)
         }
 
         function navPrevNext(option) {
+            
+            //console.log(prev)
             if (option == 'p') {
                 selectedPage--;
             }
@@ -135,8 +139,28 @@
             else{
                 selectedPage = option;
             }
-
+            tooggleButtons();
             getData();
+        }
+
+        function tooggleButtons(){
+            var prev = document.getElementById('prev');
+            var next = document.getElementById('next');
+           // console.log(selectedPage, total);
+            if(selectedPage == 1){
+               prev.style.display = 'none';
+                //prev.classList.add('disabled')
+            }
+            if(selectedPage === total){
+                next.style.display = 'none';
+                //alert("eql")
+            }
+            if(selectedPage < total){
+                next.style.display = 'block';
+            }
+            if(selectedPage > 1){
+                prev.style.display = 'block';
+            }
         }
     </script>
 </body>
