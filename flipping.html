@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+        }
+        .child1{
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            position: absolute;
+            opacity: 0.7;
+            z-index: 2;
+        }
+        .child2{
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            opacity: 0.7;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent" id="parent">
+        <div class="child1" id="div1">
+
+        </div>
+        <div class="child2" id="div2">
+
+        </div>
+
+    </div>
+    <script>
+
+        // document.querySelectorAll('#parent div').forEach(e=>{
+        //     e.addEventListener('click',function(){
+        //        // console.log('div')
+               
+        //     })
+        // })
+
+                // document.getElementById('parent').addEventListener('click', function (event) {
+
+                //         document.getElementById('div1').className = 'child2';
+                //         document.getElementById('div2').className = 'child1';
+
+                //     }, false);
+                var temp = 1;
+                var red=document.getElementById('div1')
+                var blue=document.getElementById('div2')
+                red.addEventListener('click', function () {
+                    this.style.zIndex = temp++;
+                })
+                blue.addEventListener('click', function () {
+                    this.style.zIndex = temp++;
+                })
+    </script>
+</body>
+</html>
