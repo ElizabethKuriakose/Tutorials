@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="nav nav-pills nav-fill">
+        <a id="list1" class="nav-item nav-link active" href="https://www.google.co.in/" onclick="link(1)">Google</a>
+        <a id="list2" class="nav-item nav-link active" href="https://getbootstrap.com/"
+            onclick="link(2)">GetBootstrap</a>
+        <a id="list3" class="nav-item nav-link active" href="https://www.wikipedia.org" onclick="link(3)">wikipedia</a>
+        <!-- <a class="nav-item nav-link active" href="#">Disabled</a> -->
+    </nav>
+
+    <ul class="list-group" id="pages">
+        <!-- <li class="list-group-item" id="lis1"></li>
+        <li class="list-group-item" id="lis2"></li>
+        <li class="list-group-item" id="lis3"></li> -->
+        <!-- <li class="list-group-item"></li>
+        <li class="list-group-item"></li> -->
+    </ul>
+    <script>
+        function link(op) {
+            document.body.addEventListener('click', function (e) {
+                e.preventDefault()
+            })
+            var pages = document.getElementById('pages');
+
+            if (op == 1) {
+                pages.innerHTML += `
+            <li class="list-group-item" id="lis1">You tried to navigate to google</li>`;
+                document.getElementById('list1').setAttribute('disabled', true)
+                // document.getElementById('lis1').innerHTML = "You tried to navigate to google"
+            }
+            if (op == 2) {
+                pages.innerHTML += `
+            <li class="list-group-item" id="lis2">You tried to navigate to bootstrap</li>`;
+                document.getElementById('list1').setAttribute('disabled', true)
+                // document.getElementById('lis1').innerHTML = "You tried to navigate to google"
+            }
+            if (op == 3) {
+                pages.innerHTML += `
+            <li class="list-group-item" id="lis3">You tried to navigate to Wikipedia</li>`;
+                document.getElementById('list1').setAttribute('disabled', true)
+                // document.getElementById('lis1').innerHTML = "You tried to navigate to google"
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
