@@ -1,0 +1,15 @@
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.csproj.AssemblyReference.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.AssemblyInfoInputs.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.AssemblyInfo.cs
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.csproj.CoreCompileInputs.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\bin\Debug\net6.0\Tutorial17Nov.exe
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\bin\Debug\net6.0\Tutorial17Nov.deps.json
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\bin\Debug\net6.0\Tutorial17Nov.runtimeconfig.json
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\bin\Debug\net6.0\Tutorial17Nov.dll
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\bin\Debug\net6.0\Tutorial17Nov.pdb
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.dll
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\refint\Tutorial17Nov.dll
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.pdb
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\Tutorial17Nov.genruntimeconfig.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\Tutorial17Nov\obj\Debug\net6.0\ref\Tutorial17Nov.dll
