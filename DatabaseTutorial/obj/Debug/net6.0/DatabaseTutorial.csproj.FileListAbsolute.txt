@@ -1,0 +1,15 @@
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\bin\Debug\net6.0\DatabaseTutorial.exe
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\bin\Debug\net6.0\DatabaseTutorial.deps.json
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\bin\Debug\net6.0\DatabaseTutorial.runtimeconfig.json
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\bin\Debug\net6.0\DatabaseTutorial.dll
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\bin\Debug\net6.0\DatabaseTutorial.pdb
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.csproj.AssemblyReference.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.AssemblyInfoInputs.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.AssemblyInfo.cs
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.csproj.CoreCompileInputs.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.dll
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\refint\DatabaseTutorial.dll
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.pdb
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\DatabaseTutorial.genruntimeconfig.cache
+C:\Users\elizabeth.kuriakose\source\repos\ConsoleApp1\DatabaseTutorial\obj\Debug\net6.0\ref\DatabaseTutorial.dll
